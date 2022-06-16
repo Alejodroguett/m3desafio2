@@ -7,9 +7,13 @@ function pass() {
 
     if (num1 + num2 + num3 == "911"){
         msg.innerText = "Password 1 correcto."
+        document.getElementById("msg").style = "none"
     } else if (num1 + num2 + num3 == "714"){
         msg.innerText = "Password 2 correcto."
+        document.getElementById("msg").style = "none"
     } else {
         msg.innerText = "Password incorrecto."
+        document.getElementById("msg").style.backgroundColor = "#ff0000"
+        document.getElementById("msg").style.color = "#ffffff"
     }
 }
