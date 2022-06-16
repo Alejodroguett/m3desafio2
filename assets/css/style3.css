@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+}
+.selects{
+    display: flex;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.boton{
+    padding-top: 0.5rem;
+}
