@@ -6,9 +6,11 @@ function mifuncion() {
     let num3 = Number(document.getElementById("valor3").value)
     let total = num1 + num2 +num3
 
-    if (num1 + num2 +num3 <= "10"){
-        msg.innerText = "Llevas " + total + " stickers"
+    if (num1 + num2 +num3 < "10"){
+        msg.innerText = "Llevas " + total + " stickers."
+    } else if (num1 + num2 + num3 == "10"){
+        msg.innerText = "Perfecto! llevas tus 10 stickers."
     } else {
-        msg.innerText = "Llevas demasiados stickers"
-    }
+        msg.innerText = "Llevas demasiados stickers."
+    } 
 }
